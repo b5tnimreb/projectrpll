@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Manajemen Puskesmas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Sistem Manajemen Puskesmas</h1>
+    </header>
+
+    <nav>
+        <a href="#">Beranda</a>
+        <a href="#">Jadwal Dokter</a>
+        <a href="#">Rekam Medis</a>
+        <a href="#">Hubungi Dokter</a>
+    </nav>
+
+    <section class="container">
+        <h2>Selamat datang, [Nama Pasien/Dokter]</h2>
+
+        <!-- Contoh Form untuk Pendaftaran Pasien -->
+        <form>
+            <div class="form-group">
+                <label for="nama">Nama:</label>
+                <input type="text" id="nama" name="nama" required>
+            </div>
+            <div class="form-group">
+                <label for="tanggal">Tanggal Janji:</label>
+                <input type="date" id="tanggal" name="tanggal" required>
+            </div>
+            <div class="form-group">
+                <label for="dokter">Pilih Dokter:</label>
+                <select id="dokter" name="dokter" required>
+                    <option value="dr1">Dr. Messi</option>
+                    <option value="dr2">Dr. Ronaldo</option>
+                    <option value="dr2">Dr. Neymar</option>
+                </select>
+            </div>
+            <button class="button" type="submit">Buat Janji</button>
+        </form>
+
+        <!-- Contoh Tabel Jadwal Dokter -->
+        <h3>Jadwal Dokter</h3>
+        <table>
+            <tr>
+                <th>Dokter</th>
+                <th>Senin</th>
+                <th>Selasa</th>
+                <th>Rabu</th>
+                <th>Kamis</th>
+                <th>Jumat</th>
+            </tr>
+            <tr>
+                <td>Dr. John Doe</td>
+                <td>09:00 - 15:00</td>
+                <td>09:00 - 15:00</td>
+                <td>09:00 - 15:00</td>
+                <td>Libur</td>
+                <td>09:00 - 15:00</td>
+            </tr>
+            <!-- Data Jadwal Dokter Lainnya -->
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Sistem Manajemen Puskesmas</p>
+        <p>JOY</p> 
+    </footer>
+</body>
+
+</html>
+
